@@ -1,12 +1,11 @@
 public class day053 {
     public static void main(String[] args) {
-        int n = 1;
-        while (n <= 10) {
-            System.out.println(n);
-            if (n == 7) {
+        int n = 10;
+        for (int i = 1; i <= n; i++) {
+            System.out.println(i);
+            if (i == 7) {
                 break;
             }
-            n++;
         }
     }
 }
