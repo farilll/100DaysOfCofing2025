@@ -3,11 +3,9 @@ public class day075 {
         String a = "Yooo";
 
         for (int i = 0; i < a.length(); i++) {
-
+            System.out.print(a.charAt(i));
         }
-        System.out.print(a);
         System.out.println();
-
         String b = a.toUpperCase();
         String c = b.toLowerCase();
 
