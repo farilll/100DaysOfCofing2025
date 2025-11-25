@@ -13,7 +13,7 @@ public class day079 {
             username = x.nextLine();
             System.out.print("Password: ");
             password = x.nextLine();
-        } while (!username.equals("faril") && !password.equals("1234"));
+        } while (!username.equals("faril") || !password.equals("1234"));
         System.out.println("welcome!");
         x.close();
     }
